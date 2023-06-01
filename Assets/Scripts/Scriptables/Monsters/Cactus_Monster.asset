@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941deb9e561f09a458b2e8a4b6b5536e, type: 3}
+  m_Name: Cactus_Monster
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: Cactus
+  IsActive: 1
+  Male: 1
+  HP: 100
+  XP: 0
+  maxHP: 100
+  MaxXP: 0
+  Level: 1
+  IsFire: 1
+  IsGreen: 0
+  IsWater: 0
+  Attack: 30
+  Defense: 50
+  Speed: 80
+  MonsterImg: {fileID: 21300000, guid: 7d4cb60b570eebd4b9f796020eb83e59, type: 3}
+  MosnterPrefab: {fileID: 662468794185850985, guid: a48631e259d0486fa83621f7d8f36e72, type: 3}
+  SaveName: Cactus1
+  saveHp: 100
+  saveXp: 0
+  SaveLevel: 1
+  SaveIsActive: 1

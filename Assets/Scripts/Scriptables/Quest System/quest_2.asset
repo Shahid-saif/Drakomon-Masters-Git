@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87adc4b5a9cae31448ab1bd7e6b6a56d, type: 3}
+  m_Name: quest_2
+  m_EditorClassIdentifier: 
+  Id: 2
+  QuestName: Help Justen
+  QuestDescription: Justin wants you to take his message to his family in the mountain
+    village
+  IsCompleted: 0
+  IsActive: 0
+  SaveName: 2Help Justen
+  IsCompleted_Data: 0
+  IsActive_Data: 1
