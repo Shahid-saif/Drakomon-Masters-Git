@@ -5856,7 +5856,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062846048}
   m_LocalRotation: {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: 33.72008, y: 5.480082, z: 23.440004}
+  m_LocalPosition: {x: 73.62145, y: 7.6213617, z: 68.550026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10686,11 +10686,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 206850417, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -53.96344
+      value: -53.9635
+      objectReference: {fileID: 0}
+    - target: {fileID: 250769009, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.364
+      objectReference: {fileID: 0}
+    - target: {fileID: 250769009, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.241
+      objectReference: {fileID: 0}
+    - target: {fileID: 250769009, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.001
       objectReference: {fileID: 0}
     - target: {fileID: 943088119, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.10709
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.6600866
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.313007
       objectReference: {fileID: 0}
     - target: {fileID: 983711181, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_IsActive
@@ -10759,6 +10783,18 @@ PrefabInstance:
     - target: {fileID: 2060853015, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_margin.z
       value: 5.829178
+      objectReference: {fileID: 0}
+    - target: {fileID: 591566959433929819, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.627
+      objectReference: {fileID: 0}
+    - target: {fileID: 591566959433929819, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 591566959433929819, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.313
       objectReference: {fileID: 0}
     - target: {fileID: 8103430591223333424, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_RootOrder

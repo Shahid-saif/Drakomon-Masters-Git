@@ -26,6 +26,12 @@ public class PetAi_Controller : MonoBehaviour
         Agent = GetComponent<NavMeshAgent>();
         Gmanager = GameManager.Instance;
         player_follow = Gmanager.Player_follow;
+        NavMeshHit navHit;
+
+        if (NavMesh.FindClosestEdge(player_follow.position, out navHit, 0))
+        {
+            Agent.transform.position = navHit.position;
+        }
     }
 
     // Update is called once per frame
@@ -37,6 +43,13 @@ public class PetAi_Controller : MonoBehaviour
         if (Agent.remainingDistance> RestDist)
         {
             transform.position = player_follow.position;
+            //NavMeshHit navHit;
+            //if (NavMesh.FindClosestEdge(player_follow.position, out navHit,0))
+            //{
+            //    Agent.transform.position = navHit.position;
+               
+            //}
+
         }
     }
 }

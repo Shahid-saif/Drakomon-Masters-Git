@@ -396,8 +396,9 @@ public class InvetoryManager : MonoBehaviour
         }
         if (IsBuying)
         {
-            if (GManager.playerData.PlayerMony  <= 0)
+            if (GManager.playerData.PlayerMony  <= 0|| GManager.playerData.PlayerMony<TransactionItem.DataHolder.Price)
             {
+                SellPriceText.text = "You don't have enough money";
                 return;
             }
 
