@@ -15,16 +15,19 @@ MonoBehaviour:
   ID: 5
   ItemName: Monster Egg Green
   ItemDiscription: help to catch Green wild monsters
-  ItemCount: 4
-  EffectValue: 1
+  ItemCount: 2
   ItemImg: {fileID: 21300000, guid: 3835e50d2187066458ae023acaf6aa15, type: 3}
   IsPostion: 0
   IsKey: 0
   IsBook: 0
   IsEgg: 1
-  Usable: 0
+  Usable: 1
   UsableForMonsters: 0
   NotUsable: 0
+  EffectValue: 1
+  EffectHP: 0
+  EffectXP: 0
   Price: 200
-  SaveDataName: Monster Egg3
-  SaveItemCount: 4
+  EggEffect: 80
+  SaveDataName: Monster Egg Green5
+  SaveItemCount: 2

@@ -15,8 +15,7 @@ MonoBehaviour:
   ID: 2
   ItemName: XP  postion
   ItemDiscription: Add XP points to the monster
-  ItemCount: 2
-  EffectValue: 5
+  ItemCount: 1
   ItemImg: {fileID: 21300000, guid: aa590f0874ea2024ea4eb284491850a8, type: 3}
   IsPostion: 1
   IsKey: 0
@@ -25,6 +24,9 @@ MonoBehaviour:
   Usable: 0
   UsableForMonsters: 1
   NotUsable: 0
+  EffectValue: 0
+  EffectHP: 0
+  EffectXP: 10
   Price: 150
   SaveDataName: XP  postion2
-  SaveItemCount: 2
+  SaveItemCount: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d6d1cf529c1914bb8f7b8bb1ae71b3, type: 3}
+  m_Name: Fight SceneData Template
+  m_EditorClassIdentifier: 
+  Prev: {fileID: 11400000, guid: 78014add0e2b0994cadd70d6f615b81f, type: 2}
+  EnemyHuman: {fileID: 0}
+  EnemyMonstersIDs:
+  - Wild Mushroom
+  - Wild Cactus
+  CanExit: 0
+  FightSceneName: Fight Scene_Level1
+  ReturnSceneName: BrightDay_Level_1
+  FightRounds: 0
+  Used: 0

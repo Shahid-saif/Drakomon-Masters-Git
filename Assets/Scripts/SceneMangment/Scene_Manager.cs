@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class Scene_Manager : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    #region Singleton
+    public static Scene_Manager Instance;
+    #endregion
+    void Awake()
     {
-        
+        Instance = this;
     }
 
     public void GoToSceneByName(string SceneName)

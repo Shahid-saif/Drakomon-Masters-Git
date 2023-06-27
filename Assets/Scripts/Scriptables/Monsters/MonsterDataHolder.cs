@@ -27,7 +27,7 @@ public class MonsterDataHolder : ScriptableObject
 
     [Space]
     [Header("states info")]
-    public int Attack;
+    public int EggRes;
     public int Defense;
     public int Speed;
 

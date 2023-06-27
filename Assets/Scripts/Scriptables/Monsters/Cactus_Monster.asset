@@ -16,21 +16,21 @@ MonoBehaviour:
   Name: Cactus
   IsActive: 1
   Male: 1
-  HP: 100
-  XP: 0
+  HP: 60
+  XP: 90
   maxHP: 100
-  MaxXP: 0
-  Level: 1
+  MaxXP: 100
+  Level: 179
   IsFire: 1
   IsGreen: 0
   IsWater: 0
-  Attack: 30
-  Defense: 50
-  Speed: 80
+  EggRes: 50
+  Defense: 5
+  Speed: 100
   MonsterImg: {fileID: 21300000, guid: 7d4cb60b570eebd4b9f796020eb83e59, type: 3}
   MosnterPrefab: {fileID: 662468794185850985, guid: a48631e259d0486fa83621f7d8f36e72, type: 3}
   SaveName: Cactus1
-  saveHp: 100
-  saveXp: 0
-  SaveLevel: 1
+  saveHp: 60
+  saveXp: 90
+  SaveLevel: 179
   SaveIsActive: 1

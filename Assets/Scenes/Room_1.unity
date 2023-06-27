@@ -1943,6 +1943,10 @@ PrefabInstance:
       value: GameManager (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: CanHavePet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: CanUseSkate
       value: 0
       objectReference: {fileID: 0}

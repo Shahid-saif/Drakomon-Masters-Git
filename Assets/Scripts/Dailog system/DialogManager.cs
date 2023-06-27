@@ -29,11 +29,11 @@ public class DialogManager : MonoBehaviour
 
 
     #region Singleton
-    public static DialogManager Dmanager;
+    public static DialogManager Instance;
     #endregion
     void Awake ()
     {
-           Dmanager = this;
+           Instance = this;
     }
     private void Start()
     {

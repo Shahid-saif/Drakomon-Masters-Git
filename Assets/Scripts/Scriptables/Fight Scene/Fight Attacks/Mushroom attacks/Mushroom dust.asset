@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1575338e311aa440900164607f24c07, type: 3}
+  m_Name: Mushroom dust
+  m_EditorClassIdentifier: 
+  AttackID: Mushroom dust
+  AttackCount: 16
+  Animation: Attack1
+  AttackImg: {fileID: 21300000, guid: 2a4c9b75751e9854d86c26b22469c43b, type: 3}
+  MoveToEnemy: 1
+  IsProjectile: 0
+  AttackPower: 50
+  effect: {fileID: 100006, guid: 2a474af3f4c27be4e9bdce39cfe4315d, type: 3}
+  OnMonstereffect: {fileID: 0}
+  ActiveLevel: 0
+  IsActive: 1
+  timeBeforeAttack: 0
+  timeAfterAttack: 1
+  AttackSound: DustAttack

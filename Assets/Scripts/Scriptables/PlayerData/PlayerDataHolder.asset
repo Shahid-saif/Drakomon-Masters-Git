@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerId: 1
   PlayerName: Shahid
-  PlayerMony: 500
+  PlayerMony: 500000
   PlayerLastScene: 
-  PlayerSaveMony: 500
+  PlayerSaveMony: 1200

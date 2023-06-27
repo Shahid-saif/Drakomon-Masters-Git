@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af358e0e0d2bc540bc5e58d417dd6af, type: 3}
   m_Name: Run time Data_player Position
   m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
+  BackFromRoom: 0
+  position: {x: 22.98748, y: 0.017499968, z: 24.275558}

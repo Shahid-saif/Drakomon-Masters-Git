@@ -6,6 +6,14 @@ using UnityEngine.UI;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
+    [Header("Ref")]
+    public MonsterManager monsterManager;
+    public FightSceneManager fightSceneManager;
+    public InvetoryManager invetoryManager;
+    public QuestManager questManager;
+    public DialogManager dialogManager;
+    public Scene_Manager sceneManager;
+    public SoundManager soundManger;
 
     [Header("Global Ref")]
     public GameObject PlayerUiHolder;
@@ -13,7 +21,7 @@ public class GameManager : MonoBehaviour
     public Camera MainCam;
     public Transform Player;
     public Transform Player_follow;
-    public bool CanMove=true;
+    public bool CanMove = true;
     public bool CanUseSkate = true;
     public bool CanHavePet = true;
     public bool InDialog = false;
@@ -31,7 +39,7 @@ public class GameManager : MonoBehaviour
     public UnityEvent OnUpdate;
     public UnityEvent OnStart;
 
- 
+
 
     [Space]
     [Header("Intract")]
@@ -53,6 +61,21 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        if (monsterManager == null)
+            monsterManager = MonsterManager.Instance;
+        if (fightSceneManager == null)
+            fightSceneManager = FightSceneManager.Instance;
+        if (invetoryManager == null)
+            invetoryManager = InvetoryManager.Instance;
+        if (questManager == null)
+            questManager = QuestManager.Instance;
+        if (dialogManager == null)
+            dialogManager = DialogManager.Instance;
+        if (sceneManager == null)
+            sceneManager = Scene_Manager.Instance;
+        if (soundManger==null)
+            soundManger = SoundManager.Instance;
+
         if (RunTime_playerSpownPos.BackFromRoom)
         {
             Player.transform.position = RunTime_playerSpownPos.position;
@@ -60,15 +83,21 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            if (StartPos!=null)
-            Player.position = StartPos.position;
+            if (StartPos != null)
+                Player.position = StartPos.position;
+            Player.rotation = StartPos.rotation;
         }
         OnStart?.Invoke();
         InteractUiHolder.SetActive(false);
         PlayerUiHolder.SetActive(true);
         PlayerControllerUiHolder.SetActive(true);
 
+        monsterManager.SetUpAllMonsters();
+        monsterManager.FirstMonsterSelection();
 
+        fightSceneManager.SetUpStart();
+
+      //  AdsInitializer.instance.interstitialAdExample.ShowAd();
     }
 
     // Update is called once per frame
@@ -85,4 +114,16 @@ public class GameManager : MonoBehaviour
     {
         RunTime_playerSpownPos.BackFromRoom = isFRoom;
     }
+
+    #region Ads_Connection
+    public bool CheckForConnection()
+    {
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            Debug.Log("Error. Check internet connection!");
+            return false;
+        }
+        return true;
+    }
+    #endregion
 }
