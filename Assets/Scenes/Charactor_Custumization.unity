@@ -569,6 +569,18 @@ MonoBehaviour:
           m_StringArgument: Hair_Female
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51110773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2813,6 +2825,18 @@ MonoBehaviour:
           m_StringArgument: Bag_Female
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &348774443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3290,6 +3314,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Hair_male
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &403932791
@@ -3821,6 +3857,18 @@ MonoBehaviour:
           m_StringArgument: H_Yellow
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &430116671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3922,6 +3970,134 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!1 &452676151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452676152}
+  - component: {fileID: 452676153}
+  m_Layer: 6
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452676152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452676151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 499175583}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &452676153
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452676151}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 15f7248fe7d8ed64995165d094146bd1, type: 2}
+  m_audioClip: {fileID: 8300000, guid: bf17d3a88e3294185953a4c2aa69b03d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &470282631
 GameObject:
   m_ObjectHideFlags: 0
@@ -4200,6 +4376,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486463512}
   m_CullTransparentMesh: 1
+--- !u!1 &499175582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499175583}
+  m_Layer: 6
+  m_Name: Sound_AudoSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499175583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499175582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 452676152}
+  - {fileID: 979062677}
+  m_Father: {fileID: 1137594232}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &499535671
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,6 +4504,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &499535674
@@ -4727,6 +4948,18 @@ MonoBehaviour:
           m_StringArgument: Body_Female1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &607565146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5150,6 +5383,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: H_Red
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &655776160
@@ -6505,6 +6750,18 @@ MonoBehaviour:
           m_StringArgument: Body_Female
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &836611050
 GameObject:
   m_ObjectHideFlags: 0
@@ -6636,6 +6893,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Bag_male1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &844143599
@@ -7447,6 +7716,18 @@ MonoBehaviour:
           m_StringArgument: Hair_male1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &897457245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7579,6 +7860,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: H_Pinck
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &897496292
@@ -7760,6 +8053,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &909232011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7892,6 +8197,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Body_male
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &926055280
@@ -8359,6 +8676,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977218836}
   m_CullTransparentMesh: 1
+--- !u!1 &979062676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979062677}
+  - component: {fileID: 979062678}
+  m_Layer: 6
+  m_Name: Sound Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979062677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979062676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 499175583}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &979062678
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979062676}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 50c67251179a65b4d9fc50516a9a0667, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &979690573
 GameObject:
   m_ObjectHideFlags: 0
@@ -9471,6 +9916,7 @@ GameObject:
   - component: {fileID: 1137594231}
   - component: {fileID: 1137594233}
   - component: {fileID: 1137594234}
+  - component: {fileID: 1137594235}
   m_Layer: 6
   m_Name: GameManager
   m_TagString: Untagged
@@ -9490,6 +9936,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7403c100208234a4e98ecc3a1c530646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monsterManager: {fileID: 0}
+  fightSceneManager: {fileID: 0}
+  invetoryManager: {fileID: 0}
+  questManager: {fileID: 0}
+  dialogManager: {fileID: 0}
+  sceneManager: {fileID: 0}
+  soundManger: {fileID: 0}
   PlayerUiHolder: {fileID: 901689722}
   PlayerControllerUiHolder: {fileID: 0}
   MainCam: {fileID: 963194227}
@@ -9526,6 +9979,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 901689723}
+  - {fileID: 499175583}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9564,6 +10018,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd8e01445514e341b94a54f30779725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1137594235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137594230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be1910da10ed3349812f43141a27593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicAS: {fileID: 452676153}
+  EffectAS: {fileID: 979062678}
+  SoundEffects:
+  - ClipId: Transaction_eff
+    Clip: {fileID: 8300000, guid: 5d8c7c2ee1d8cdb4abd20f9763c3c113, type: 3}
+  - ClipId: Transaction_get_eff
+    Clip: {fileID: 8300000, guid: 97c820bcc22690040809d698f38495b4, type: 3}
+  - ClipId: Fight Win
+    Clip: {fileID: 8300000, guid: b42be62fc1963224cb726a0683f61d75, type: 3}
+  - ClipId: Fight Lose
+    Clip: {fileID: 8300000, guid: b5b6d5dbf5057e74d940d473d551949a, type: 3}
+  - ClipId: Button_press_Select
+    Clip: {fileID: 8300000, guid: 8fcf3cd8b3dbcca4e9e04c7ac5fa9161, type: 3}
+  - ClipId: MessageShow
+    Clip: {fileID: 8300000, guid: 57bcf84b7fc575b48b0b8133bcc06f80, type: 3}
+  - ClipId: MosterItem_Use
+    Clip: {fileID: 8300000, guid: 170dedf21b9565349872a795784cf42f, type: 3}
+  - ClipId: Button_press_Click
+    Clip: {fileID: 8300000, guid: d17110bb9c588c14897c8106c0528ee5, type: 3}
+  - ClipId: Button_press_Click1
+    Clip: {fileID: 8300000, guid: 7096c237e384d435ab4bf80e18bf6a18, type: 3}
+  - ClipId: Button_press_Click2
+    Clip: {fileID: 8300000, guid: d923860589a0748e981a2145fbc32489, type: 3}
+  - ClipId: Button_press_Click3
+    Clip: {fileID: 8300000, guid: ad59f5a14b4f049789aa350b9c608f20, type: 3}
+  - ClipId: StartBattle
+    Clip: {fileID: 8300000, guid: b9e95869585adef418d7532d0eda1f69, type: 3}
+  - ClipId: RetunToPosition
+    Clip: {fileID: 8300000, guid: bfeedeec7b930a543ad8106beba29349, type: 3}
+  - ClipId: DustAttack
+    Clip: {fileID: 8300000, guid: 6ad3f2ddcf1854b70979eb63be7c65d5, type: 3}
 --- !u!1 &1159481318
 GameObject:
   m_ObjectHideFlags: 0
@@ -11235,6 +11732,18 @@ MonoBehaviour:
           m_StringArgument: H_Pinck
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1460854547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11367,6 +11876,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Bag_Female1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1467412345
@@ -13133,6 +13654,18 @@ MonoBehaviour:
           m_StringArgument: H_Green
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629322896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14775,6 +15308,18 @@ MonoBehaviour:
           m_StringArgument: Body_male1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1824432981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14907,6 +15452,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Hair_Female2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1827673352
@@ -15312,6 +15869,18 @@ MonoBehaviour:
           m_StringArgument: Bag_male
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1879867437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15630,6 +16199,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Hair_male2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1893731521
@@ -16104,6 +16685,18 @@ MonoBehaviour:
           m_StringArgument: H_Red
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1924351724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16236,6 +16829,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: H_Yellow
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1930142996
@@ -17094,6 +17699,18 @@ MonoBehaviour:
           m_StringArgument: H_Green
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2033567460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17691,6 +18308,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2074718396
@@ -18372,6 +19001,18 @@ MonoBehaviour:
           m_StringArgument: H_black
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2111335089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18541,6 +19182,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: H_black
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2122918437
@@ -18744,6 +19397,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Hair_Female3
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1137594235}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayeSoundEffectWithId
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button_press_Click3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2143176698

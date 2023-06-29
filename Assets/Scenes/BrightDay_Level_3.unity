@@ -11138,6 +11138,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -23.309015
       objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.27059805
+      objectReference: {fileID: 0}
     - target: {fileID: 987460274, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -12.999893
@@ -11146,6 +11162,10 @@ PrefabInstance:
       propertyPath: shop
       value: 
       objectReference: {fileID: 1042995515}
+    - target: {fileID: 1592518448, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: IsFightScene
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1595974430, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.845
@@ -11162,6 +11182,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -6.8789215
       objectReference: {fileID: 0}
+    - target: {fileID: 86935742089073574, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bf17d3a88e3294185953a4c2aa69b03d, type: 3}
     - target: {fileID: 591566959433929819, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.735636

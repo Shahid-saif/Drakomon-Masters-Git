@@ -12,5 +12,6 @@ public class FightScene_FightDataHolder : ScriptableObject
     public string FightSceneName;
     public string ReturnSceneName;
     public int FightRounds;
+   // public bool OneTimeFight;
     public bool Used;
 }

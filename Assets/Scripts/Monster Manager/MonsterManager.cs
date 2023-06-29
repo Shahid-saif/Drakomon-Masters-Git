@@ -123,6 +123,10 @@ public class MonsterManager : MonoBehaviour
     #region MainFunctions
     public void FirstMonsterSelection()
     {
+        if (ActiveMonster.Count<=0)
+        {
+            SetMonsterActive(SelectedMonster);
+        }
         if (GManager.fightSceneManager.IsFightScene)
         {
             SelectedMonster = null;
