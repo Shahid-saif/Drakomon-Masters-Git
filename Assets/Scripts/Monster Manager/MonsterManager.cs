@@ -73,7 +73,7 @@ public class MonsterManager : MonoBehaviour
     {
         GManager = GameManager.Instance;
         SetUpAllMonsters();
-        FirstMonsterSelection();
+       // FirstMonsterSelection();
     }
 
     #region Debug

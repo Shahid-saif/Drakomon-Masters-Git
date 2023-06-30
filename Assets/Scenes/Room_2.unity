@@ -1593,6 +1593,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 1592518448, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: IsFightScene
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1595974430, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04
@@ -1694,9 +1698,21 @@ PrefabInstance:
       value: GameManager (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: CanHavePet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: CanUseSkate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: RoomStopObj.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+      propertyPath: RoomStopObj.Array.data[0]
+      value: 
+      objectReference: {fileID: 1158608500}
     - target: {fileID: 8103430591223333439, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
       propertyPath: OnStart.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1756,6 +1772,11 @@ MonoBehaviour:
 --- !u!4 &1158608499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 591566959433929819, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
+  m_PrefabInstance: {fileID: 1158608496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1158608500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1380865560, guid: 6bfbcc3ab537b764296b63190ff44827, type: 3}
   m_PrefabInstance: {fileID: 1158608496}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1288738842

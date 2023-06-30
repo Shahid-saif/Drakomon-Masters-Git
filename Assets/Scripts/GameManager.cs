@@ -51,6 +51,9 @@ public class GameManager : MonoBehaviour
     [Header("Run time data")]
     public RunTimeData RunTime_playerSpownPos;
 
+    [Space]
+    [Header("Room setup")]
+    [SerializeField]List< GameObject> RoomStopObj;
     #region Singleton
     public static GameManager Instance;
     #endregion
@@ -93,7 +96,20 @@ public class GameManager : MonoBehaviour
         PlayerControllerUiHolder.SetActive(true);
 
         monsterManager.SetUpAllMonsters();
-        monsterManager.FirstMonsterSelection();
+        if (CanHavePet)
+        {
+            monsterManager.FirstMonsterSelection();
+          
+        }
+        else
+        {
+           // monsterManager.SelectedMonster.gameObject.SetActive(false);
+            foreach (var roomObj in RoomStopObj)
+            {
+                roomObj.SetActive(false);
+            }
+        }
+
 
         fightSceneManager.SetUpStart();
 
