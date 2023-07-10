@@ -7,10 +7,14 @@ using UnityEngine.Events;
 public class GlobalMessage : MonoBehaviour
 {
     public bool IsInfo = true;
-
+    public bool IsItem = false;
     public string MessageTitle;
     [TextArea(2,10)]
     public string MessageMainText;
+
+    [Header("item message")]
+    public Item item;
+    public int Count = 3;
 
 
     public UnityEvent Yes_Event;
@@ -26,4 +30,5 @@ public class GlobalMessage : MonoBehaviour
     {
         No_Event?.Invoke();
     }
+
 }

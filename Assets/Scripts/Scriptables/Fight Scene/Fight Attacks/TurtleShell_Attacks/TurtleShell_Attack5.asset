@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1575338e311aa440900164607f24c07, type: 3}
+  m_Name: TurtleShell_Attack5
+  m_EditorClassIdentifier: 
+  AttackID: TurtleShell_Attack5
+  AttackCount: 10
+  Animation: Attack1
+  AttackImg: {fileID: 21300000, guid: b7b79d4477f728a449f074eace396d0b, type: 3}
+  AttackIndex: 5
+  MoveToEnemy: 1
+  IsProjectile: 0
+  AttackPower: 10
+  effect: {fileID: 100006, guid: 2a474af3f4c27be4e9bdce39cfe4315d, type: 3}
+  OnMonstereffect: {fileID: 0}
+  ActiveLevel: 20
+  IsActive: 1
+  timeBeforeAttack: 0
+  timeAfterAttack: 1
+  AttackSound: DustAttack

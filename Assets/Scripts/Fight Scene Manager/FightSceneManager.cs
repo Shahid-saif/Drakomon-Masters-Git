@@ -461,7 +461,7 @@ public class FightSceneManager : MonoBehaviour
             StartCoroutine(RetunToPositionWait());
             Gmanager.OnUpdate.RemoveListener(Attack);
         }
-
+     
     }
 
     public void RetunToPosition()
@@ -480,7 +480,7 @@ public class FightSceneManager : MonoBehaviour
             else
             {
                 Trans.position = HomePoint.position;
-                AttackFinishEvent?.Invoke();
+          
 
                 if (!PlayerTurn && !IsOver)
                     StartCoroutine(EnemySetAttack());
@@ -515,6 +515,7 @@ public class FightSceneManager : MonoBehaviour
     {
         MessageText.text = AttackerName + " Make Damage by " + AttackDamageAmount;
         yield return new WaitForSeconds(Skill.timeAfterAttack);
+        AttackFinishEvent?.Invoke();
         Gmanager.OnUpdate.AddListener(RetunToPosition);
 
     }

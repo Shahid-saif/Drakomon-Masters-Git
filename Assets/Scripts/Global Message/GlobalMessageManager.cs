@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+using UnityEngine.UI;
 
 public class GlobalMessageManager : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class GlobalMessageManager : MonoBehaviour
     public GameObject MessageUiHodler;
     public TextMeshProUGUI MessageTitle;
     public TextMeshProUGUI MessageMainText;
+    public TextMeshProUGUI MessageItemCount;
+    public Image ItemImg;
 
     [Space]
     [Header("Choise Options properties")]
@@ -39,14 +42,37 @@ public class GlobalMessageManager : MonoBehaviour
         MessageTitle.text = GMessage.MessageTitle;
         MessageMainText.text= GMessage.MessageMainText;
         MessageUiHodler.SetActive(true);
+        ItemImg.gameObject.SetActive(false);
+        MessageItemCount.gameObject.SetActive(false);
         Gmanger.CanMove = false;
         if (GMessage.IsInfo)
         {
-            InfoMessageUI.SetActive(true);
-            OptionMessageUI.SetActive(false);
+            if (GMessage.IsItem)
+            {
+                //get the item
+                Gmanger.invetoryManager.TakeItemFromChest(GMessage.item, GMessage.Count);
+                //-------
+
+                InfoMessageUI.SetActive(true);
+                OptionMessageUI.SetActive(false);
+                MessageItemCount.gameObject.SetActive(true);
+                MessageMainText.gameObject.SetActive(false);
+                ItemImg.sprite = GMessage.item.DataHolder.ItemImg;
+                ItemImg.gameObject.SetActive(true);
+                MessageTitle.text ="You have "+ GMessage.item.DataHolder.ItemName;
+                MessageItemCount.text ="x"+ GMessage.Count.ToString();
+            }
+            else
+            {
+                InfoMessageUI.SetActive(true);
+                OptionMessageUI.SetActive(false);
+                MessageMainText.gameObject.SetActive(true);
+            }
+         
         }
         else
         {
+            MessageMainText.gameObject.SetActive(true);
             InfoMessageUI.SetActive(false);
             OptionMessageUI.SetActive(true);
         }

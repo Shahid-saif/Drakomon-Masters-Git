@@ -450,7 +450,18 @@ public class InvetoryManager : MonoBehaviour
 
     }
 
-
+    public void TakeItemFromChest(Item _TransactionItem, int _TransectionCount)
+    {
+        for (int i = 0; i < _TransectionCount; i++)
+        {
+          
+                PlayerPrefs.SetInt(_TransactionItem.DataHolder.SaveDataName + "ItemCount", _TransactionItem.DataHolder.SaveItemCount + 1);
+                _TransactionItem.DataHolder.SaveItemCount = PlayerPrefs.GetInt(_TransactionItem.DataHolder.SaveDataName + "ItemCount", 0);
+               
+        }
+        SetUpAllItems();
+        ClearInfo();
+    }
 
     public void BuyItme()
     {
